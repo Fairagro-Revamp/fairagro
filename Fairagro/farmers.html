@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairagro Revamp</title>
+    <link rel="stylesheet" href="farmerstylesheet.css">
+</head>
+<body>
+    <div class="navi">
+        <nav>
+            <a href="index.html">
+          <img src="image/logo.png" class="logo"> </a>
+        
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>  
+
+                
+            </ul>
+            <img src="image/user.png" class="user-pic" onclick="toggleMenu()">
+            
+            <div class="sub-menu-wrap" id="subMenu">
+
+                <div class="sub-menu">
+
+                    <div class="user-info">
+                        <img src="image/user.png">
+                        <h3>James Aldrino</h3>
+                      
+
+                    </div>
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+                        <img src="./image/profile.png">
+                        <p>Edit profile</p>
+                        <span>></span>
+                          </a>
+                          <a href="#" class="sub-menu-link">
+                            <img src="./image/setting.png">
+                            <p>Setting & Privacy</p>
+                            <span>></span>
+                              </a>
+                              <a href="#" class="sub-menu-link">
+                                <img src="./image/help.png">
+                                <p>Help & Support</p>
+                                <span>></span>
+                                  </a>
+                          <a href="#" class="sub-menu-link">
+                            <img src="./image/logout.png">
+                            <p>Logout</p>
+                            <span>></span>
+                              </a>
+                </div>
+            </div>
+            
+                
+            </div>
+        </nav>
+        
+    
+<div class="container">
+
+    <h1 class="heading">Dashboard</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./image/icon-1.jpeg" alt="">
+            <h3>MY Products</h3>
+            <p> A Farmer is neveroff duty</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/icon-2.jpeg" alt="">
+            <h3>Sells</h3>
+            <p>Farmers are the one who feed everyone</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/icon-3.jpeg" alt="">
+            <h3>Sells Request</h3>
+            <p>Farming - you do it, because you love it.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/icon-4.jpeg" alt="">
+            <h3>My Insurance</h3>
+           <p>Every hardwork surely does paysoff </p>
+            <a href="#" class="btn">see more</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/icon-5.jpeg" alt="">
+            <h3>Marketplace</h3>
+            <p>Agriculutre with Tech becomes more efficient</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/icon-6.jpeg" alt="">
+            <h3>Earnings</h3>
+            <p>Every season is season of harvesting</p>
+           
+            <a href="#" class="btn">see more</a>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu()
+        {
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+     
+</body>
+
+</html>
